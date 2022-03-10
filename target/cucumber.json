@@ -1,0 +1,310 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "User should be able to login with valid credentials and open a new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3663308700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "TechfiosStepDefination.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3082260700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3061082400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 26
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4848587000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login",
+            "match": {
+              "location": "TechfiosStepDefination.User_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2952200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "TechfiosStepDefination.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43789800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on bankCash",
+            "match": {
+              "location": "TechfiosStepDefination.user_clicks_on_bankCash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555960000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on newAccount",
+            "match": {
+              "location": "TechfiosStepDefination.user_clicks_on_newAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3065750000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters accountTitle \"Serra\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serra",
+                  "offset": 26
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_accountTitle(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067183600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters description \"Lalala\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalala",
+                  "offset": 25
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_description(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067290200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters initialBalance \"500\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 28
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_initialBalance(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3112787700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters accountNumber \"25252525\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25252525",
+                  "offset": 27
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_accountNumber(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3073043500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters contactPerson \"PeterS\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PeterS",
+                  "offset": 27
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_contactPerson(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54651300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Phone \"\u003cPhone\u003e\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cPhone\u003e",
+                  "offset": 19
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_phone(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48681900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters internetBankingURL \"xyz@nybanking.com\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz@nybanking.com",
+                  "offset": 32
+                }
+              ],
+              "location": "TechfiosStepDefination.user_enters_internetBankingURL(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4274789300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on submitButton",
+            "match": {
+              "location": "TechfiosStepDefination.user_clicks_on_submitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591997200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on newAccount",
+            "match": {
+              "location": "TechfiosStepDefination.user_clicks_on_newAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667150300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "TechfiosStepDefination.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@scenarioHW"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "TecgfiosLogin.feature"
+  }
+]
